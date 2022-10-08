@@ -1,0 +1,5 @@
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.Service\obj\Debug\netcoreapp3.1\MastekTest.Service.csproj.AssemblyReference.cache
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.Service\obj\Debug\netcoreapp3.1\MastekTest.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.Service\obj\Debug\netcoreapp3.1\MastekTest.Service.AssemblyInfoInputs.cache
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.Service\obj\Debug\netcoreapp3.1\MastekTest.Service.AssemblyInfo.cs
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.Service\obj\Debug\netcoreapp3.1\MastekTest.Service.csproj.CoreCompileInputs.cache

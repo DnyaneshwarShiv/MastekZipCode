@@ -1,0 +1,10 @@
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.PostCodeRepository\bin\Debug\netcoreapp3.1\MastekDeveloperTest.PostCodeRepository.deps.json
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.PostCodeRepository\bin\Debug\netcoreapp3.1\MastekDeveloperTest.PostCodeRepository.dll
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.PostCodeRepository\bin\Debug\netcoreapp3.1\MastekDeveloperTest.PostCodeRepository.pdb
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.PostCodeRepository\obj\Debug\netcoreapp3.1\MastekDeveloperTest.PostCodeRepository.csproj.AssemblyReference.cache
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.PostCodeRepository\obj\Debug\netcoreapp3.1\MastekDeveloperTest.PostCodeRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.PostCodeRepository\obj\Debug\netcoreapp3.1\MastekDeveloperTest.PostCodeRepository.AssemblyInfoInputs.cache
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.PostCodeRepository\obj\Debug\netcoreapp3.1\MastekDeveloperTest.PostCodeRepository.AssemblyInfo.cs
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.PostCodeRepository\obj\Debug\netcoreapp3.1\MastekDeveloperTest.PostCodeRepository.csproj.CoreCompileInputs.cache
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.PostCodeRepository\obj\Debug\netcoreapp3.1\MastekDeveloperTest.PostCodeRepository.dll
+C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.PostCodeRepository\obj\Debug\netcoreapp3.1\MastekDeveloperTest.PostCodeRepository.pdb
