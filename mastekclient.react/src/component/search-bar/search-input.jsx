@@ -47,7 +47,7 @@ const SearchBar = ({suggestionsList,searchPostCode,onPostCodeSelection,postCodeA
           })}
         </ul>
       </div>
-      {postCodeAreaDetails?.length>0?<div className="zipCodeAreaDetails">
+      {postCodeAreaDetails?.length>0 && zipNotFoundMessage==='' && zipError===''?<div className="zipCodeAreaDetails">
       <Table>
         <tr>
           <th>Country</th>
