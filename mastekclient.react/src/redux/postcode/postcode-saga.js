@@ -12,7 +12,12 @@ function* fetchPostCode({payload}){
         })
         let {response,error} = yield call(getRequest, getPostCodeUrl);
         if(!error){
-            yield put(initPostCodeAutomplete(response));
+            if(response!==''){
+                yield put(initPostCodeAutomplete(response));
+            }
+            else{
+                
+            }
         }
 }
 function* getAreaDetails({payload}){

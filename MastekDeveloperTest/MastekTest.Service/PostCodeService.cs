@@ -23,7 +23,7 @@ namespace MastekDeveloperTest.Service
             var searchList = JsonConvert.DeserializeObject<MastekAreaPostal>(area);
             return searchList?.Result?.Select(s=> new MastekArea()
             {
-                Area = s.Latitude< 52.229466?"South": (52.229466<=s.Latitude && s.Latitude< 53.27169? "Midlands": "North"),
+                Area = s.Latitude< 52.229466?ZipConstant.AreaSouth: (52.229466<=s.Latitude && s.Latitude< 53.27169? ZipConstant.AreaMidland: ZipConstant.AreaNorth),
                 Latitude = s.Latitude,
                 AdminDistrict = s.AdminDistrict,
                 Country = s.Country,

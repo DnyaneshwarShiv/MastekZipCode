@@ -3,19 +3,33 @@ import { Typeahead } from "react-bootstrap-typeahead";
 import { connect } from "react-redux";
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import { onPostCodeSelection, SearchPostCode } from "../../redux/postcode/postcode-actions";
+import { onPostCodeSelection, SearchPostCode, setAreaDetails } from "../../redux/postcode/postcode-actions";
 import './search-input.scss'
 import { Table } from "react-bootstrap";
 
-const SearchBar = ({suggestionsList,searchPostCode,onPostCodeSelection,postCodeAreaDetails})=>{
+const SearchBar = ({suggestionsList,searchPostCode,onPostCodeSelection,postCodeAreaDetails,setAreaDetails})=>{
+  const [zipError, setZipError] = useState('')
+  const searchPostCodesDetails=(zip)=>{
+    let regEx=/^[0-9a-zA-Z]+$/;
+    if(zip.match(regEx))
+     {
+      searchPostCode(zip)
+      setZipError('')
+     }
+     else{
+        setZipError('Zip code must be alphanumberic')
+        setAreaDetails([])
+     }
+  }
     return(<>
     <div className="search">
         <input type='text'
           className="searchBox"
-          onChange={(e)=>{searchPostCode(e.target.value)}}
+          onChange={(e)=>{searchPostCodesDetails(e.target.value)}}
           label="Search"
           placeholder="Seach ZipCode"
         />
+        {zipError?<div className="error">{zipError}</div>:''}
         <ul className="suggestions-list">
           {suggestionsList?.map((suggestion, index) => {
             return (
@@ -69,7 +83,8 @@ const mapStateToProps = (state, props) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         searchPostCode: (payload) => dispatch(SearchPostCode(payload)),
-        onPostCodeSelection: (payload)=> dispatch(onPostCodeSelection(payload))
+        onPostCodeSelection: (payload)=> dispatch(onPostCodeSelection(payload)),
+        setAreaDetails : (payload)=>dispatch(setAreaDetails(payload))
     }
 }
 
