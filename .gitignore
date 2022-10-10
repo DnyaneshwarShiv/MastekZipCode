@@ -26,7 +26,13 @@ yarn-debug.log*
 yarn-error.log*
 /MastekDeveloperTest/MastekTest.PostCodeRepository/TransferPricing.DataAccessLayer.csproj.user
 /MastekDeveloperTest/.vs/*
-/MastekDeveloperTest/MastekDeveloperTest/bin/Release/netCoreApp3.1/*
+/MastekDeveloperTest/MastekDeveloperTest/bin/*
 /MastekDeveloperTest/MastekDeveloperTest/obj/*
+/MastekDeveloperTest/MastekTest.DTO/bin/*
+/MastekDeveloperTest/MastekTest.DTO/obj/*
+/MastekDeveloperTest/MastekTest.PostCodeRepository/bin/*
+/MastekDeveloperTest/MastekTest.PostCodeRepository/obj/*
+/MastekDeveloperTest/MastekTest.Service/bin/*
+/MastekDeveloperTest/MastekTest.Service/obj/*
 /MastekDeveloperTest/MastekDeveloperTest/publish/*
 /MastekDeveloperTest/MastekDeveloperTest/MastekDeveloperTest.csproj.user
