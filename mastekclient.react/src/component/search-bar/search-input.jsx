@@ -7,7 +7,7 @@ import { onPostCodeSelection, SearchPostCode, setAreaDetails } from "../../redux
 import './search-input.scss'
 import { Table } from "react-bootstrap";
 
-const SearchBar = ({suggestionsList,searchPostCode,onPostCodeSelection,postCodeAreaDetails,setAreaDetails})=>{
+const SearchBar = ({suggestionsList,searchPostCode,onPostCodeSelection,postCodeAreaDetails,setAreaDetails,zipNotFoundMessage})=>{
   const [zipError, setZipError] = useState('')
   const searchPostCodesDetails=(zip)=>{
     let regEx=/^[0-9a-zA-Z]+$/;
@@ -30,6 +30,7 @@ const SearchBar = ({suggestionsList,searchPostCode,onPostCodeSelection,postCodeA
           placeholder="Seach ZipCode"
         />
         {zipError?<div className="error">{zipError}</div>:''}
+        {zipNotFoundMessage!==''?<div className="error">{zipNotFoundMessage}</div>:''}
         <ul className="suggestions-list">
           {suggestionsList?.map((suggestion, index) => {
             return (
@@ -76,7 +77,8 @@ const mapStateToProps = (state, props) => {
     if(PostCodeReducer){
         return {
             suggestionsList: PostCodeReducer?.zipCodeList,
-            postCodeAreaDetails: PostCodeReducer?.postCodeAreaDetails
+            postCodeAreaDetails: PostCodeReducer?.postCodeAreaDetails,
+            zipNotFoundMessage: PostCodeReducer?.zipNotFoundMessage
         }
     }
 }

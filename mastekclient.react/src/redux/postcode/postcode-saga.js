@@ -2,7 +2,7 @@
 import { call, put, select, takeLatest } from "redux-saga/effects";
 import { APIEndPointConfig } from "../../api-endpoint-cnfig";
 import { getRequest, interpolateString } from "../../utils/saga-utils";
-import { initPostCodeAutomplete, PostCodeActions, setAreaDetails } from "./postcode-actions";
+import { initPostCodeAutomplete, PostCodeActions, setAreaDetails, setNoZipFound } from "./postcode-actions";
 
 function* fetchPostCode({payload}){
     let searchtext = payload;
@@ -14,9 +14,10 @@ function* fetchPostCode({payload}){
         if(!error){
             if(response!==''){
                 yield put(initPostCodeAutomplete(response));
+                yield put(setNoZipFound(''))
             }
             else{
-                
+                yield put(setNoZipFound('Zip details not found'))
             }
         }
 }
