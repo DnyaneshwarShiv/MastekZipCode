@@ -37,7 +37,7 @@ namespace MastekDeveloperTest.Controllers
         /// <param name="selectedCode"></param>
         /// <returns></returns>
         [HttpGet("GetPostCodeDetails")]
-        public async Task<IList<MastekArea>> Get(string selectedCode)
+        public async Task<IList<MastekAreaDto>> Get(string selectedCode)
         {
             return await _postCodeService.GetPostCodeDetails(selectedCode);
         }

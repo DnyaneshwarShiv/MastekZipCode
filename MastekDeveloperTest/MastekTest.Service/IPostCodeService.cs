@@ -9,6 +9,6 @@ namespace MastekDeveloperTest.Service
     public interface IPostCodeService
     {
         Task<IList<string>> GetPostCodeForAutoCompletion(string searchStr);
-        Task<IList<MastekArea>> GetPostCodeDetails(string code);
+        Task<IList<MastekAreaDto>> GetPostCodeDetails(string code);
     }
 }

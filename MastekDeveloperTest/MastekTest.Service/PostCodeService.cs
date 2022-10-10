@@ -1,5 +1,7 @@
-﻿using MastekDeveloperTest.DTO;
+﻿using AutoMapper;
+using MastekDeveloperTest.DTO;
 using MastekDeveloperTest.PostCodeRepository;
+using MastekTest.DomainModel;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -11,13 +13,16 @@ namespace MastekDeveloperTest.Service
     public class PostCodeService : IPostCodeService
     {
         private readonly IPostCodeRepository _postCodeRepository;
+        private readonly IMapper _mapper;
+
         /// <summary>
         /// constructor
         /// </summary>
         /// <param name="postCodeRepository"></param>
-        public PostCodeService(IPostCodeRepository postCodeRepository)
+        public PostCodeService(IPostCodeRepository postCodeRepository, IMapper mapper)
         {
             _postCodeRepository = postCodeRepository;
+            _mapper = mapper;
         }
         #region public method
         /// <summary>
@@ -25,12 +30,12 @@ namespace MastekDeveloperTest.Service
         /// </summary>
         /// <param name="code">zip code</param>
         /// <returns></returns>
-        public async Task<IList<MastekArea>> GetPostCodeDetails(string code)
+        public async Task<IList<MastekAreaDto>> GetPostCodeDetails(string code)
         {
             string relPath = $"postcodes?q={code}";
             string area = await GetResponseFromClient(relPath);
             var searchList = JsonConvert.DeserializeObject<MastekAreaPostal>(area);
-            return searchList?.Result?.Select(s=> new MastekArea()
+            var zipAreaDetails= searchList?.Result?.Select(s=> new MastekAreaModel()
             {
                 Area = s.Latitude< 52.229466?ZipConstant.AreaSouth: (52.229466<=s.Latitude && s.Latitude< 53.27169? ZipConstant.AreaMidland: ZipConstant.AreaNorth),
                 Latitude = s.Latitude,
@@ -39,6 +44,7 @@ namespace MastekDeveloperTest.Service
                 ParlimentaryConstituency = s.ParlimentaryConstituency,
                 Region  =s.Region
             }).ToList();
+            return _mapper.Map<IList<MastekAreaDto>>(zipAreaDetails);
         }
 
         /// <summary>

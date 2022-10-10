@@ -5,10 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MastekTest.DomainModel\MastekTest.DomainModel.csproj" />
     <ProjectReference Include="..\MastekTest.DTO\MastekDeveloperTest.DTO.csproj" />
     <ProjectReference Include="..\MastekTest.PostCodeRepository\MastekDeveloperTest.PostCodeRepository.csproj" />
   </ItemGroup>

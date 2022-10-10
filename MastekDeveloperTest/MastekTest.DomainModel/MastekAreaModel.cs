@@ -1,10 +1,9 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 
-namespace MastekDeveloperTest.DTO
+namespace MastekTest.DomainModel
 {
-    public class MastekArea
+    public class MastekAreaModel
     {
         public string Country { get; set; }
         public string Region { get; set; }
@@ -16,14 +15,5 @@ namespace MastekDeveloperTest.DTO
         public double Latitude { get; set; }
 
         public string Area { get; set; }
-    }
-
-    public class MastekAreaPostal
-    {
-        public IList<MastekArea> Result { get; set; }
-    }
-    public class MastekAreaAutoCompletion
-    {
-       public IList<string> Result { get;set; }
     }
 }

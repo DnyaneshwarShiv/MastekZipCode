@@ -11,6 +11,8 @@ using Microsoft.Extensions.Logging;
 using MastekDeveloperTest.PostCodeRepository;
 using MastekTest.PostCodeRepository;
 using MastekDeveloperTest.Service;
+using AutoMapper;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MastekDeveloperTest
 {
@@ -26,6 +28,12 @@ namespace MastekDeveloperTest
         // This method gets called by the runtime. Use this method to add services to the container
         public void ConfigureServices(IServiceCollection services)
         {
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MapperProfile());
+            });
+            mappingConfig.CreateMapper();
+            services.AddSingleton(mappingConfig.CreateMapper());
             services.AddScoped<IPostCodeRepository, PostCodesRepository>();
             services.AddScoped<IPostCodeService, PostCodeService>();
             services.AddControllers();
