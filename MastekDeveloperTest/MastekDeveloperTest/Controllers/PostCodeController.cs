@@ -12,6 +12,10 @@ namespace MastekDeveloperTest.Controllers
     public class PostCodeController : ControllerBase
     {
         private readonly IPostCodeService _postCodeService;
+        /// <summary>
+        /// constructor
+        /// </summary>
+        /// <param name="postCodeService"></param>
         public PostCodeController(IPostCodeService postCodeService)
         {
             _postCodeService = postCodeService;

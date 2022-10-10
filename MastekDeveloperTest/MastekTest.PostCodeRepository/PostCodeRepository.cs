@@ -17,6 +17,11 @@ namespace MastekTest.PostCodeRepository
             httpClient.DefaultRequestHeaders.Accept.Clear();
             httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(ZipConstant.HeaderValue));
         }
+        /// <summary>
+        /// Get all based on relative url.
+        /// </summary>
+        /// <param name="relativeUrl"></param>
+        /// <returns></returns>
         public async Task<HttpResponseMessage> Get(string relativeUrl)
         {
             return await httpClient.GetAsync(relativeUrl);

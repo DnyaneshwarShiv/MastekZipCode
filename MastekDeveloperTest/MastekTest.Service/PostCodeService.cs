@@ -11,11 +11,20 @@ namespace MastekDeveloperTest.Service
     public class PostCodeService : IPostCodeService
     {
         private readonly IPostCodeRepository _postCodeRepository;
-
+        /// <summary>
+        /// constructor
+        /// </summary>
+        /// <param name="postCodeRepository"></param>
         public PostCodeService(IPostCodeRepository postCodeRepository)
         {
             _postCodeRepository = postCodeRepository;
         }
+        #region public method
+        /// <summary>
+        /// Get details based on zip code
+        /// </summary>
+        /// <param name="code">zip code</param>
+        /// <returns></returns>
         public async Task<IList<MastekArea>> GetPostCodeDetails(string code)
         {
             string relPath = $"postcodes?q={code}";
@@ -32,6 +41,26 @@ namespace MastekDeveloperTest.Service
             }).ToList();
         }
 
+        /// <summary>
+        /// Get zip code based on type ahead string
+        /// </summary>
+        /// <param name="searchStr"></param>
+        /// <returns></returns>
+        public async Task<IList<string>> GetPostCodeForAutoCompletion(string searchStr)
+        {
+            string relPath = $"/postcodes/{searchStr}/autocomplete";
+            string area = await GetResponseFromClient(relPath);
+            var searchList= JsonConvert.DeserializeObject<MastekAreaAutoCompletion>(area)?.Result;
+            return searchList;
+        }
+        #endregion
+
+        #region private method
+        /// <summary>
+        /// Get response
+        /// </summary>
+        /// <param name="relPath"></param>
+        /// <returns></returns>
         private async Task<string> GetResponseFromClient(string relPath)
         {
             var response = await _postCodeRepository.Get(relPath);
@@ -43,12 +72,6 @@ namespace MastekDeveloperTest.Service
             return area;
         }
 
-        public async Task<IList<string>> GetPostCodeForAutoCompletion(string searchStr)
-        {
-            string relPath = $"/postcodes/{searchStr}/autocomplete";
-            string area = await GetResponseFromClient(relPath);
-            var searchList= JsonConvert.DeserializeObject<MastekAreaAutoCompletion>(area)?.Result;
-            return searchList;
-        }
+        #endregion
     }
 }
