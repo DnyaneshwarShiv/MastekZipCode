@@ -17,7 +17,7 @@ const SearchBar = ({suggestionsList,searchPostCode,onPostCodeSelection,postCodeA
       setZipError('')
      }
      else{
-        setZipError('Zip code must be alphanumberic')
+        setZipError('Zip code must contain alpha numeric characters only.')
         setAreaDetails([])
         initPostCodeAutomplete([])
      }
