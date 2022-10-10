@@ -3,11 +3,11 @@ import { Typeahead } from "react-bootstrap-typeahead";
 import { connect } from "react-redux";
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import { onPostCodeSelection, SearchPostCode, setAreaDetails } from "../../redux/postcode/postcode-actions";
+import { initPostCodeAutomplete, onPostCodeSelection, SearchPostCode, setAreaDetails } from "../../redux/postcode/postcode-actions";
 import './search-input.scss'
 import { Table } from "react-bootstrap";
 
-const SearchBar = ({suggestionsList,searchPostCode,onPostCodeSelection,postCodeAreaDetails,setAreaDetails,zipNotFoundMessage})=>{
+const SearchBar = ({suggestionsList,searchPostCode,onPostCodeSelection,postCodeAreaDetails,setAreaDetails,zipNotFoundMessage,initPostCodeAutomplete})=>{
   const [zipError, setZipError] = useState('')
   const searchPostCodesDetails=(zip)=>{
     let regEx=/^[0-9a-zA-Z]+$/;
@@ -19,6 +19,7 @@ const SearchBar = ({suggestionsList,searchPostCode,onPostCodeSelection,postCodeA
      else{
         setZipError('Zip code must be alphanumberic')
         setAreaDetails([])
+        initPostCodeAutomplete([])
      }
   }
     return(<>
@@ -86,7 +87,8 @@ const mapDispatchToProps = (dispatch) => {
     return {
         searchPostCode: (payload) => dispatch(SearchPostCode(payload)),
         onPostCodeSelection: (payload)=> dispatch(onPostCodeSelection(payload)),
-        setAreaDetails : (payload)=>dispatch(setAreaDetails(payload))
+        setAreaDetails : (payload)=>dispatch(setAreaDetails(payload)),
+        initPostCodeAutomplete: (payload)=> dispatch(initPostCodeAutomplete(payload))
     }
 }
 
