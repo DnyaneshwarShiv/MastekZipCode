@@ -36,3 +36,4 @@ yarn-error.log*
 /MastekDeveloperTest/MastekTest.Service/obj/*
 /MastekDeveloperTest/MastekDeveloperTest/publish/*
 /MastekDeveloperTest/MastekDeveloperTest/MastekDeveloperTest.csproj.user
+/MastekDeveloperTest/.vs/*
