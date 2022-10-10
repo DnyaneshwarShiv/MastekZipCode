@@ -33,8 +33,9 @@ namespace MastekDeveloperTest.Service
         public async Task<IList<MastekAreaDto>> GetPostCodeDetails(string code)
         {
             string relPath = $"postcodes?q={code}";
-            string area = await GetResponseFromClient(relPath);
+            string area = await GetResponseFromClient(relPath);//Fetching response
             var searchList = JsonConvert.DeserializeObject<MastekAreaPostal>(area);
+            //logic for getting Area based on the given conditions
             var zipAreaDetails= searchList?.Result?.Select(s=> new MastekAreaModel()
             {
                 Area = s.Latitude< 52.229466?ZipConstant.AreaSouth: (52.229466<=s.Latitude && s.Latitude< 53.27169? ZipConstant.AreaMidland: ZipConstant.AreaNorth),
@@ -44,7 +45,7 @@ namespace MastekDeveloperTest.Service
                 ParlimentaryConstituency = s.ParlimentaryConstituency,
                 Region  =s.Region
             }).ToList();
-            return _mapper.Map<IList<MastekAreaDto>>(zipAreaDetails);
+            return _mapper.Map<IList<MastekAreaDto>>(zipAreaDetails);//converting to dto
         }
 
         /// <summary>
@@ -57,7 +58,7 @@ namespace MastekDeveloperTest.Service
             string relPath = $"/postcodes/{searchStr}/autocomplete";
             string area = await GetResponseFromClient(relPath);
             var searchList= JsonConvert.DeserializeObject<MastekAreaAutoCompletion>(area)?.Result;
-            return searchList;
+            return searchList;//returning zip code list
         }
         #endregion
 

@@ -18,7 +18,7 @@ namespace MastekTest.PostCodeRepository
             httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(ZipConstant.HeaderValue));
         }
         /// <summary>
-        /// Get all based on relative url.
+        /// Get data based on relative url.
         /// </summary>
         /// <param name="relativeUrl"></param>
         /// <returns></returns>
