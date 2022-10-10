@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5SKetUZrgaNvGjmnWkxJZcqac+c4qqVf3qgRO2pAHgyGGBG9nZqnLVhyLmB8/HjhTJbz2R5ItQikJQ9cvqMaVw==",
+  "dgSpecHash": "6kmJ0xyGPq5HDi+l9jtGJ6u8AnPuP7RhibdZxHpDFhi+jMnBu3tFS8Tn4td4sXMJ3B/MyAgwwtOh76P2buDk3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekDeveloperTest\\MastekDeveloperTest.csproj",
+  "projectFilePath": "C:\\mastek\\MastekDeveloperTest\\MastekDeveloperTest\\MastekDeveloperTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dnyaneshw.shivbhakta\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.0\\amazon.lambda.apigatewayevents.2.4.0.nupkg.sha512",
     "C:\\Users\\dnyaneshw.shivbhakta\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.1.0\\amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",

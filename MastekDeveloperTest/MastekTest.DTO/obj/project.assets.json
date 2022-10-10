@@ -66,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj",
+      "projectUniqueName": "C:\\mastek\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj",
       "projectName": "MastekDeveloperTest.DTO",
-      "projectPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj",
+      "projectPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj",
       "packagesPath": "C:\\Users\\dnyaneshw.shivbhakta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.DTO\\obj\\",
+      "outputPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

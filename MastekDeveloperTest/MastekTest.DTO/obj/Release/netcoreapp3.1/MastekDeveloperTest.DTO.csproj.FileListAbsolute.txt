@@ -11,3 +11,16 @@ C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.DTO\ob
 C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.DTO\obj\Release\netcoreapp3.1\MastekDeveloperTest.DTO.dll
 C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.DTO\obj\Release\netcoreapp3.1\MastekDeveloperTest.DTO.pdb
 C:\Users\dnyaneshw.shivbhakta\source\repos\MastekDeveloperTest\MastekTest.DTO\obj\Release\netcoreapp3.1\MastekDeveloperTest.DTO.genruntimeconfig.cache
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\bin\Release\netcoreapp3.1\MastekDeveloperTest.DTO.deps.json
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\bin\Release\netcoreapp3.1\MastekDeveloperTest.DTO.runtimeconfig.json
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\bin\Release\netcoreapp3.1\MastekDeveloperTest.DTO.runtimeconfig.dev.json
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\bin\Release\netcoreapp3.1\MastekDeveloperTest.DTO.dll
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\bin\Release\netcoreapp3.1\MastekDeveloperTest.DTO.pdb
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\obj\Release\netcoreapp3.1\MastekDeveloperTest.DTO.csproj.AssemblyReference.cache
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\obj\Release\netcoreapp3.1\MastekDeveloperTest.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\obj\Release\netcoreapp3.1\MastekDeveloperTest.DTO.AssemblyInfoInputs.cache
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\obj\Release\netcoreapp3.1\MastekDeveloperTest.DTO.AssemblyInfo.cs
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\obj\Release\netcoreapp3.1\MastekDeveloperTest.DTO.csproj.CoreCompileInputs.cache
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\obj\Release\netcoreapp3.1\MastekDeveloperTest.DTO.dll
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\obj\Release\netcoreapp3.1\MastekDeveloperTest.DTO.pdb
+C:\mastek\MastekDeveloperTest\MastekTest.DTO\obj\Release\netcoreapp3.1\MastekDeveloperTest.DTO.genruntimeconfig.cache

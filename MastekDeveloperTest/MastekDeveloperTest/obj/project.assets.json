@@ -793,11 +793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekDeveloperTest\\MastekDeveloperTest.csproj",
+      "projectUniqueName": "C:\\mastek\\MastekDeveloperTest\\MastekDeveloperTest\\MastekDeveloperTest.csproj",
       "projectName": "MastekDeveloperTest",
-      "projectPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekDeveloperTest\\MastekDeveloperTest.csproj",
+      "projectPath": "C:\\mastek\\MastekDeveloperTest\\MastekDeveloperTest\\MastekDeveloperTest.csproj",
       "packagesPath": "C:\\Users\\dnyaneshw.shivbhakta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekDeveloperTest\\obj\\",
+      "outputPath": "C:\\mastek\\MastekDeveloperTest\\MastekDeveloperTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -820,11 +820,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj": {
-              "projectPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj"
+            "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj": {
+              "projectPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj"
             },
-            "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj": {
-              "projectPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj"
+            "C:\\mastek\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj": {
+              "projectPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj"
             }
           }
         }

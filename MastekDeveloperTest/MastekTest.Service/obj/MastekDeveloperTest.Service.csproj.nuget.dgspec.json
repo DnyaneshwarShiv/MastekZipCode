@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj": {}
+    "C:\\mastek\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj": {
+    "C:\\mastek\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj",
+        "projectUniqueName": "C:\\mastek\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj",
         "projectName": "MastekDeveloperTest.DTO",
-        "projectPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj",
+        "projectPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj",
         "packagesPath": "C:\\Users\\dnyaneshw.shivbhakta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.DTO\\obj\\",
+        "outputPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj": {
+    "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj",
+        "projectUniqueName": "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj",
         "projectName": "MastekDeveloperTest.PostCodeRepository",
-        "projectPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj",
+        "projectPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj",
         "packagesPath": "C:\\Users\\dnyaneshw.shivbhakta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\obj\\",
+        "outputPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -140,14 +140,14 @@
         }
       }
     },
-    "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj": {
+    "C:\\mastek\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj",
+        "projectUniqueName": "C:\\mastek\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj",
         "projectName": "MastekDeveloperTest.Service",
-        "projectPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj",
+        "projectPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.Service\\MastekDeveloperTest.Service.csproj",
         "packagesPath": "C:\\Users\\dnyaneshw.shivbhakta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.Service\\obj\\",
+        "outputPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -170,11 +170,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj": {
-                "projectPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj"
+              "C:\\mastek\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj": {
+                "projectPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.DTO\\MastekDeveloperTest.DTO.csproj"
               },
-              "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj": {
-                "projectPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj"
+              "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj": {
+                "projectPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj"
               }
             }
           }

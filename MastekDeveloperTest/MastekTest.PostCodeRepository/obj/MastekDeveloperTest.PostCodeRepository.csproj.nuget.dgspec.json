@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj": {}
+    "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj": {
+    "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj",
+        "projectUniqueName": "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj",
         "projectName": "MastekDeveloperTest.PostCodeRepository",
-        "projectPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj",
+        "projectPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\MastekDeveloperTest.PostCodeRepository.csproj",
         "packagesPath": "C:\\Users\\dnyaneshw.shivbhakta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dnyaneshw.shivbhakta\\source\\repos\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\obj\\",
+        "outputPath": "C:\\mastek\\MastekDeveloperTest\\MastekTest.PostCodeRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
