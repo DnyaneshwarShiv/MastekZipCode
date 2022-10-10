@@ -1,0 +1,51 @@
+.search{
+    
+    input[type="text"]{
+        height:20px;
+        font-size: 14px;
+        width:90%;
+    }
+    .suggestions-list {
+        list-style: none;
+        padding: 0;
+        margin-left:150px;
+        max-height: 160px;
+        z-index: 104;
+        position: absolute;
+        overflow: auto;
+        width: 50%;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+        .suggestion {
+            background-color: #fff;
+            padding: 10px;
+            color: #414141;
+            cursor: pointer;
+          }
+          
+          .suggestion:hover {
+            background-color: #c4c4c4;
+          }
+      }
+   
+}
+.zipCodeAreaDetails{
+    margin:20px;
+    margin-left:150px;
+  
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+ table tr:nth-child(even){background-color: #f2f2f2;}
+  
+ table  {
+    th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #C4C4C4;
+        color: white;
+    }
+  }
+}

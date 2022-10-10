@@ -1,0 +1,54 @@
+{
+  "name": "mastekclient.react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.21.2",
+    "bootstrap": "4.6.0",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "path-browserify": "^1.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^1.6.1",
+    "react-bootstrap-typeahead": "5.2.1",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "6.4.1",
+    "react-scripts": "5.0.1",
+    "redux": "4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-saga": "1.2.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.development react-scripts start",
+    "build:develop": "env-cmd -f .env.development react-scripts build",
+    "build:qa": " env-cmd -f .env.qa react-scripts build",
+    "build:stg": " env-cmd -f .env.stg react-scripts build",
+    "build:sbx": " env-cmd -f .env.sbx react-scripts build",
+    "build:prod": " env-cmd -f .env.production react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
